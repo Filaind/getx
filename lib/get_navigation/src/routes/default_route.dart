@@ -40,7 +40,7 @@ class GetPageRoute<T> extends PageRoute<T> {
   final Duration transitionDuration;
 
   @override
-  final Duration reverseTransitionDuration = const Duration(milliseconds: 300);
+  final Duration reverseTransitionDuration = const Duration(milliseconds: 400);
 
   final GetPageBuilder page;
 
